@@ -1,0 +1,38 @@
+# Site settings
+title: Flyleaf
+email: help@flyleafapp.com
+image: /images/apple-touch-icon.png
+description: Read later app for iOS and macOS with native design, iCloud sync and book-style pagination
+author: Max Melzer
+fediverse: "@flyleaf@mastodon.social"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://flyleafapp.com" # the base hostname & protocol for your site
+permalink: :title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: posts
+    values:
+      lang: en
+      layout: post
+  -
+    scope:
+      path: "/*en/*"
+    values:
+      lang: en
+  -
+    scope:
+      path: "/*de/*"
+    values:
+      lang: de
+
+# Build settings
+
+markdown: kramdown
+
+exclude: [makefile, .idea/]
+
+kramdown:
+   smart_quotes: lsquo,rsquo,ldquo,rdquo

@@ -1,0 +1,42 @@
+
+/* Link styling and animation */
+
+a, a:visited {
+	color: var(--text-color);
+	text-decoration: none;
+	border-bottom: 2px solid var(--lightgray);
+	transition: border-color .3s;
+}
+a:hover {
+	border-bottom-color: var(--color)
+}
+
+
+/* Hover effect without underline */
+
+h1, nav {
+	a, a:visited {
+		border-bottom: none;
+		.label {
+			position: relative;
+		}
+		.label::after {
+			z-index: -1;
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			height: 0px;
+			opacity: 0;
+			background: linear-gradient(to right, rgba(131,58,180,1) 15%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 84%);
+			transition: all .3s;
+		}
+	}
+	a:hover {
+		.label::after {
+			height: 3px;
+			opacity: 1;
+		}
+	}
+}

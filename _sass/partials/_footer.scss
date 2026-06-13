@@ -1,0 +1,17 @@
+/* Footer at very bottom of page */
+
+footer.bottom {
+	background-color: #000;
+	background-image: linear-gradient(to right, rgba(131,58,180,.75) 15%, rgba(253,29,29,.75) 50%, rgba(252,176,69,.75) 84%);
+    color: #fff !important;
+	min-height: 100px;
+	text-align: center;
+	* {
+		font-family: $sans;
+		line-height: 1.6;
+		color: #fff !important;
+		font-size: .8rem;
+	}
+	a {white-space:nowrap;}
+	span.subscription {white-space:nowrap;}
+}

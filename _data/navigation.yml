@@ -1,0 +1,12 @@
+- title: Flyleaf
+  icon: /images/projects/flyleaf-mac-icon-small.png
+  url: /
+  url-de: /de/
+- title: Blog
+  url: /blog/
+  url-de: /de/blog/
+- title: FAQ
+  url: /faq
+  url-de: /de/faq/
+- title: Download
+  url: https://apps.apple.com/app/flyleaf-read-later/id6475200381

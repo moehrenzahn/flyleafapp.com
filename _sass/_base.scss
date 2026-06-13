@@ -1,0 +1,95 @@
+/* Variables */
+
+$max-width: 650px;
+$background-color: white;
+$footer-color: #404040;
+$button-color: #F0F0F0;
+$transition-time: .4s;
+
+//Fonts
+
+$sans: "Source Sans Pro", -system, "Helvetica Neue", sans-serif !default;
+$mono: "Ubuntu mono", "Lucida Console", Monaco, monospace !default;
+$heading-font-family: $sans !default;
+$header-subtitle-font-family: $sans !default;
+
+//Font sizes
+
+$bodytext: 20px;
+$metatext: 90%;
+$footnotetext: 97%;
+
+:root {
+    --text-color: #331300;
+    --text-color-light: #712900;
+    --color: #FF670F;
+    --lightgray: #ffc5a1;
+    --background: #fff;
+    --gutter-width: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    :root {        --gutter-width: 40px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #ffe2d5;
+        --text-color-light: #c68f6f;
+        --lightgray: #7b2f00;
+        --color: #fd6d1a;
+        --background: #0f0600;
+    }
+}
+
+@import "base/layout";
+@import "base/solarized";
+@import "base/typography";
+@import "base/darkmode";
+
+
+.flyleaf {
+    text-align: center;
+    overflow: hidden;
+}
+.flyleaf p,
+.flyleaf li {
+    max-width: 70ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .5rem;
+    text-align: justify;
+    hyphens: none;
+}
+.flyleaf .flyleaf-stuff :is(h1, h2, h3, h4) {
+    font-weight: 900;
+    line-height: 1.1;
+    margin-top: 3rem;
+    max-width: min(100%, 700px);
+    text-wrap: balance;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem
+}
+
+.flyleaf h1 {
+    display: inline-block;
+    text-align: center;
+    font-size: clamp(1.5rem, 7vw, 3rem);
+    font-weight: 900;
+    max-width: min(100%, 1200px) !important;
+    background: rgb(131,58,180);
+    background: linear-gradient(132deg, rgba(131,58,180,1) 15%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 84%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; 
+    * {
+        color: transparent; 
+    }
+}
+.flyleaf h2 {
+    font-size: clamp(1.3rem, 2.5vw, 5rem);
+    margin: 0 auto;
+}

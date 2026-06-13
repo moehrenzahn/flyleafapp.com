@@ -1,0 +1,32 @@
+<nav class="header-menu">
+    <ul>
+        {% for item in site.data.navigation %}
+        {% unless item.hidden %}
+        <li>
+            <a class="
+                {% if page.url == item.url or page.url == item.url-de %}active{% endif %}
+                {% if item.title == 'Posts' and page.collection == 'posts' %}active{% endif %}
+            "
+               href="
+                {% if page.lang == 'en' %}
+                    {{ item.url }}
+                {% else %}
+                    {{ item.url-de | default: item.url }}
+                {% endif %}">
+                {% if item.icon %}
+                <img class="icon" src="{{ item.icon }}" /> 
+                {% endif %}
+                <div class="label">
+                {% if page.lang == 'en' %}
+                    {{ item.title }}
+                {% else %}
+                    {{ item.title-de | default: item.title }}
+                {% endif %}
+                </div>
+            </a>
+        </li>
+        {% endunless %}
+        {% endfor %}
+        <li class="lang-switcher">{% include lang-switcher.html %}</li>
+    </ul>
+</nav>

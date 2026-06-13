@@ -1,0 +1,37 @@
+{% for item in site.data.navigation %}
+  {% if page.url == item.url %}
+    <!-- Root page -->
+    {% assign switch_url = item.url-de %} 
+    {% break %}
+  {% elsif page.url == item.url-de %}
+    <!-- Root page -->
+    {% assign switch_url = item.url  %} 
+    {% break %}
+  {% elsif page.url contains item.url %}
+    <!-- projects etc. to DE -->
+    {% assign switch_url = item.url-de %}
+  {% elsif page.url contains item.url-de %}       
+      <!-- projects etc to EN -->
+      {% assign switch_url = item.url %}
+  {% endif %}
+{% endfor %}
+
+{% unless switch_url %}
+  {% if page.lang == 'en' %}
+    {% assign switch_url = '/de/blog' %} 
+  {% else %}
+    {% assign switch_url = '/blog' %}
+  {% endif %}
+{% endunless %}
+
+{% if page.lang == 'en' %}
+  <a href="{{ switch_url | absolute_url }}">
+    <div class="label">EN</div>
+    <img class="icon" src="/images/flaticons/world.svg"/>
+  </a>
+{% else %}
+  <a href="{{ switch_url | absolute_url }}">
+    <div class="label">DE</div>
+    <img class="icon" src="/images/flaticons/world.svg"/>
+  </a>
+{% endif %}

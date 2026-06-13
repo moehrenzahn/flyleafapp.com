@@ -1,0 +1,20 @@
+---
+layout: compress
+---
+
+
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{% include head.html %}
+
+<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %}>
+
+ <header id="banner" role="banner">{% include header.html %}</header>
+
+  <div id="main" class="flyleaf">
+    <div id="content" class="flyleaf-stuff" style="max-width: {{ page.layout-width | default: '760 px'}}">
+      {{ content | expand_urls: root_url }}
+    </div>
+  </div>
+  {% include footer.html %}
+</body>
+</html>

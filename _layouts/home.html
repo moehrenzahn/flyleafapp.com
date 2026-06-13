@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+<style>
+.flyleaf h1 {
+font-size: clamp(4rem, 10vw, 10rem);
+}
+.flyleaf .flyleaf-stuff :is(h1, h2, h3, h4) {
+text-align: center;
+}
+.flyleaf p,
+.flyleaf li {
+    font-family: "Charter", Georgia, 'Times New Roman', Times, serif !important;
+}
+</style>
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+{{ content | expand_urls: root_url }}

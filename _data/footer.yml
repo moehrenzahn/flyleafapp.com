@@ -1,0 +1,29 @@
+-
+  - title: Support
+    title-de: Hilfe
+    url: /help
+    url-de: /de/help/
+  - title: Privacy Policy
+    title-de: Datenschutzerklärung
+    url: /privacy
+    url-de: /de/privacy/
+  - title: Terms of Use
+    title-de: Nutzungsbedingungen
+    url: /terms
+    url-de: /de/terms
+  - title: Press Materials (.zip)
+    title-de: Presse-Materialien (.zip)
+    url: /flyleaf-press-media.zip
+    url-de: /flyleaf-press-media-de.zip
+-
+  - title: Max Melzer
+    url: https://moehrenzahn.de/en/about/
+    url-de: https://moehrenzahn.de/about/
+  - title: Mastodon
+    url: https://mastodon.social/@flyleafapp/
+  - title: RSS
+    url: /feed.xml
+  - title: Imprint
+    title-de: Impressum
+    url: /de/impressum/
+    url-de: /de/impressum/

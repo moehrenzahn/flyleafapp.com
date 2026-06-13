@@ -1,0 +1,19 @@
+#banner {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	backdrop-filter: blur(20px) contrast(0.1) saturate(5) brightness(1.8);
+	box-shadow: -10px 0 20px #0001;
+	margin-bottom: 0px;
+}
+
+a.titlelink {
+	display: inline-block;
+	font-family: Georgia, serif;
+	font-size: 140%;
+	border: none;
+	transition: color .3s;
+}
+a.titlelink:hover {
+	color: var(--color) !important;
+}

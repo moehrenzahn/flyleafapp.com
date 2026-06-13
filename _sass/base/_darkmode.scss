@@ -1,0 +1,68 @@
+
+@media (prefers-color-scheme: dark) {
+
+	body {
+        #banner {
+            backdrop-filter: blur(20px) contrast(0.1) saturate(28) brightness(0.4);
+        }
+		a, a:visited {
+			border-bottom-color: var(--lightgray);
+		}
+		a:hover {
+			border-bottom-color: var(--color);
+		}
+		h1,  h2,  p,  a, a:visited {
+			color: var(--text-color);
+		}
+		article.hentry {
+            .footnote-button:before {
+                color: var(--background);
+            }
+            .footnote-content,  .tooltip,  .footnote-main-wrapper {
+                background-color: var(--background);
+                border-color: var(--text-color);
+            }
+            .footnote-content-wrapper {
+                background: var(--background);
+                border-color: var(--text-color);
+            }
+            .footnote-content.scrollable {
+                .footnote-main-wrapper:before,  .footnote-main-wrapper:after {
+                    background: none;
+                }
+            }
+
+        }
+		span.entry-content-excerpt:after {
+			background: -moz-linear-gradient(left, rgba(34,34,34,0) 0%, var(--background) 100%);
+			background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(34,34,34,0)), color-stop(100%,var(--background)));
+			background: -webkit-linear-gradient(left, rgba(34,34,34,0) 0%,var(--background) 100%);
+			background: -o-linear-gradient(left, rgba(34,34,34,0) 0%,var(--background) 100%);
+			background: -ms-linear-gradient(left, rgba(34,34,34,0) 0%,var(--background) 100%);
+			background: linear-gradient(to right, rgba(34,34,34,0) 0%,var(--background) 100%);
+		}
+        
+        .button:active, .button.active {
+            box-shadow: 0 0 0 #000;
+        }
+
+        .header-menu {
+            .lang-switcher .icon {
+                filter: invert(1);
+            }
+        }
+        .page-navigation {
+            background-color: var(--text-color) !important;
+        }
+        .page-navigation button {
+            background-color: var(--text-color);
+        }
+        .entry-title.index:before {
+            filter: invert(1);
+        }
+
+        .index-thumb {
+            box-shadow: #220d00 0px 8px 24px;
+        }
+    }
+}

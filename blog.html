@@ -1,0 +1,16 @@
+---
+layout: page
+lang: en
+title: Flyleaf Blog
+regenerate: true
+---
+
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in site.posts %}
+    <article>
+      {% assign content = post.content %}
+      {% include article.html %}
+    </article>
+  {% endfor %}
+</div>

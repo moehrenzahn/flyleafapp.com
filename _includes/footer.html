@@ -1,0 +1,27 @@
+<footer class="bottom" role="contentinfo">
+	<div>
+		<strong>Flyleaf <span class="dot">•</span> &copy;&nbsp;2012–{{ site.time | date: "%Y" }} Max Melzer</strong>
+	</div>
+	{% for line in site.data.footer %}
+	<div>
+		{% for item in line %}
+			{% unless item.hidden %}
+				<span class="">					
+					<a href="{% if page.lang == 'en' %}
+                    {{ item.url }}{% else %}{{ item.url-de | default: item.url }}
+					{% endif %}">
+					{% if page.lang == 'en' %}
+						{{ item.title }}
+					{% else %}
+						{{ item.title-de | default: item.title }}
+					{% endif %}
+					</a>
+				</span>
+				{% unless item == line.last %}
+				<span class="dot">•</span>
+				{% endunless %}
+			{% endunless %}
+        {% endfor %}
+	</div>
+	{% endfor %}
+</footer>
