@@ -1,7 +1,6 @@
 ---
 layout: post
 title: One year of Flyleaf
-categories: [Flyleaf, Technologie]
 image: /images/projects/flyleaf-mac-icon.png
 lang: en
 ---

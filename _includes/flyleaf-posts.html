@@ -23,7 +23,7 @@
 </style>
 <div class="blog-index">
     {% assign index = true %}
-    {% assign flyleaf_posts = site.posts | where_exp: "item", "item.categories contains 'Flyleaf'" %}
+    {% assign flyleaf_posts = site.posts %}
     {% if page.lang == 'de' %}
       {% assign posts = flyleaf_posts %}
 		{% else %}

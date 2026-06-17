@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Apptisan #015: Flyleaf"
-categories: [Flyleaf, Technologie]
 link: https://apptisan.substack.com/p/apptisan-015-flyleaf
 image: /images/projects/flyleaf-mac-icon.png
 lang: en

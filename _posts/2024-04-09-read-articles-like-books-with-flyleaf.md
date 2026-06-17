@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Creativerly: Read articles like books – with Flyleaf"
-categories: [Technologie, Flyleaf]
 lang: en
 link: https://creativerly.com/read-articles-like-a-book-with-flyleaf/
 ---
