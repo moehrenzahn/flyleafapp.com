@@ -4,7 +4,6 @@ lang: en
 layout: home
 description: Read later app with book-style pagination
 image: /images/projects/flyleaf-mac-icon.png
-categories: [SwiftUI, App]
 ---
 
 # Flyleaf

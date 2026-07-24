@@ -25,6 +25,8 @@ $footnotetext: 97%;
     --color: #FF670F;
     --lightgray: #ffc5a1;
     --background: #fff;
+    --background-secondary: #edebeb;
+
     --gutter-width: 1rem;
 }
 
@@ -40,6 +42,7 @@ $footnotetext: 97%;
         --lightgray: #7b2f00;
         --color: #fd6d1a;
         --background: #0f0600;
+        --background-secondary: #2d1200;
     }
 }
 
@@ -78,7 +81,7 @@ $footnotetext: 97%;
     text-align: center;
     font-size: clamp(1.5rem, 7vw, 3rem);
     font-weight: 900;
-    max-width: min(100%, 1200px) !important;
+    max-width: min(100%, 700px) !important;
     background: rgb(131,58,180);
     background: linear-gradient(132deg, rgba(131,58,180,1) 15%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 84%);
     background-size: cover;
@@ -92,4 +95,14 @@ $footnotetext: 97%;
 .flyleaf h2 {
     font-size: clamp(1.3rem, 2.5vw, 5rem);
     margin: 0 auto;
+}
+
+select {
+    background-color: var(--background);
+    border-radius: 0.5rem;
+    border-width: 3px;
+    border-color: var(--background-secondary);
+    &:hover {
+        background-color: var(--lightgray);
+    }
 }

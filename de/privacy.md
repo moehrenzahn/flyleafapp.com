@@ -23,7 +23,7 @@ Flyleaf ist nicht verantwortlich für die Inhalte von Webseiten Dritter.
 
 ## E-Mail-Unterstützung
 
-Sie können uns unter [hi@flyleafapp.com](mailto:hi@flyleafapp.com) kontaktieren. Alle Informationen, die Sie uns auf diesem Weg mitteilen, werden vertraulich behandelt und nicht an Dritte außerhalb unseres E-Mail-Anbieters [mailbox.org](https://mailbox.org) weitergegeben. Es gelten die [Mailbox.org-Datenschutzbestimmungen](https://mailbox.org/en/data-protection).
+Sie können uns unter [support@flyleafapp.com](mailto:support@flyleafapp.com) kontaktieren. Alle Informationen, die Sie uns auf diesem Weg mitteilen, werden vertraulich behandelt und nicht an Dritte außerhalb unseres E-Mail-Anbieters [mailbox.org](https://mailbox.org) weitergegeben. Es gelten die [Mailbox.org-Datenschutzbestimmungen](https://mailbox.org/en/data-protection).
 
 ## Änderungen der Datenschutzrichtlinie
 

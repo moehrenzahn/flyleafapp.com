@@ -164,6 +164,6 @@ By continuing to access or use Our Service after those revisions become effectiv
 
 ## Contact Us
 
-If you have any questions about these Terms and Conditions, You can contact us by email: [hi@flyleafapp.com](mailto:hi@flyleafapp.com)
+If you have any questions about these Terms and Conditions, You can contact us by email: [support@flyleafapp.com](mailto:support@flyleafapp.com)
 
 {% include flyleaf-download.html %}

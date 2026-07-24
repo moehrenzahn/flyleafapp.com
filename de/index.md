@@ -4,7 +4,6 @@ lang: de
 layout: home
 description: Später-Lesen-App mit Blättern im Buchstil
 image: /images/projects/flyleaf-mac-icon.png
-categories: [SwiftUI, App]
 ---
 
 # Flyleaf

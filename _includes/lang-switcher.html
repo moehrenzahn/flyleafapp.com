@@ -24,14 +24,7 @@
   {% endif %}
 {% endunless %}
 
-{% if page.lang == 'en' %}
-  <a href="{{ switch_url | absolute_url }}">
-    <div class="label">EN</div>
-    <img class="icon" src="/images/flaticons/world.svg"/>
-  </a>
-{% else %}
-  <a href="{{ switch_url | absolute_url }}">
-    <div class="label">DE</div>
-    <img class="icon" src="/images/flaticons/world.svg"/>
-  </a>
-{% endif %}
+<select name="langswitcher" onchange="window.location = this.value">
+<option value="{{ switch_url | absolute_url }}" {% if page.lang == 'en' %}selected{% endif %}>EN</option>
+<option value="{{ switch_url | absolute_url }}" {% if page.lang == 'de' %}selected{% endif %}>DE</option>
+</select>

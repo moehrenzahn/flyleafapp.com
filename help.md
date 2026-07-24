@@ -15,10 +15,10 @@ As the name suggests, there are many questions that get asked a lot, and they ar
 
 > [Frequently Answered Questions](/faq/)
 
-## 2. Send an [email to the developer](mailto:hi@flyleafapp.com)
+## 2. Send an [email to the developer](mailto:support@flyleafapp.com)
 
 Hi, I'm Max, the app developer behind Flyleaf. I'm only working on Flyleaf on nights and weekends, but I love to hear from Flyleaf users and aim to reply to every email (eventually). If you ever run into issues using Flyleaf or have a question not answered [in the FAQ](/faq/), please don't hesitate to send me an email:
 
-> [Send a support email to Max](mailto:hi@flyleafapp.com)
+> [Send a support email to Max](mailto:support@flyleafapp.com)
 
 {% include flyleaf-download.html %}

@@ -23,7 +23,7 @@ Flyleaf is not responsible for the contents of third-party web pages.
 
 ## Email Support
 
-You can contact us at [hi@flyleafapp.com](mailto:hi@flyleafapp.com). Any information you share this way will be kept confidential and not shared with third parties outside of our email provider, [mailbox.org](https://mailbox.org). [The Mailbox.org privacy policy](https://mailbox.org/en/data-protection) applies.
+You can contact us at [support@flyleafapp.com](mailto:support@flyleafapp.com). Any information you share this way will be kept confidential and not shared with third parties outside of our email provider, [mailbox.org](https://mailbox.org). [The Mailbox.org privacy policy](https://mailbox.org/en/data-protection) applies.
 
 ## Privacy Policy Changes
 

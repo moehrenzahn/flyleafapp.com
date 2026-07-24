@@ -5,7 +5,7 @@ layout: page
 image: /images/projects/flyleaf-mac-icon.png
 ---
 
-Here, I have collected some frequently asked questions about my read-later app [Flyleaf](/). If you believe your question should be answered here but isn't, get in touch at [hi@flyleafapp.com](mailto:hi@flyleafapp.com)!
+Here, I have collected some frequently asked questions about my read-later app [Flyleaf](/). If you believe your question should be answered here but isn't, get in touch at [support@flyleafapp.com](mailto:support@flyleafapp.com)!
 
 {% include flyleaf-download.html %}
 
@@ -53,7 +53,7 @@ If you are a Flyleaf subscriber, you can also use the built-in archive.is integr
 
 You should try the "Fix content issues" action accessible by swiping up while reading an article. This will give you different options for getting around content and download issues.
 
-If the website is still not displayed right in Flyleaf, please send me the link to [hi@flyleafapp.com](mailto:hi@flyleafapp.com) so I can improve the parser in a future update!
+If the website is still not displayed right in Flyleaf, please send me the link to [support@flyleafapp.com](mailto:support@flyleafapp.com) so I can improve the parser in a future update!
 
 ----
 
@@ -99,7 +99,7 @@ Unfortunately, support for operating systems older than iOS 17 and macOS 14 will
 
 ## Can you add feature XYZ?
 
-Maybe. :) Send me an email to [hi@flyleafapp.com](mailto:hi@flyleafapp.com) and I'll consider it.
+Maybe. :) Send me an email to [support@flyleafapp.com](mailto:support@flyleafapp.com) and I'll consider it.
 
 ----
 
@@ -125,7 +125,7 @@ Thanks for asking! As an indie developer, your support means a lot to me. There 
 
 - Head over to both the iOS App Store and the Mac App Store and [give a rating and write a positive review](https://apps.apple.com/app/flyleaf-read-later/id6475200381?action=write-review). Write a new one after each update for maximum effect.
 - If you have a blog, a social media following, or lots of friends, recommend Flyleaf to them.
-- If you encounter a bug in the App, let me know about it at [hi@flyleafapp.com](mailto:hi@flyleafapp.com). If you would like to join the TestFlight beta to help improve future updates, let me know as well.
+- If you encounter a bug in the App, let me know about it at [support@flyleafapp.com](mailto:support@flyleafapp.com). If you would like to join the TestFlight beta to help improve future updates, let me know as well.
 - Consider becoming a subscriber to the monthly or yearly Flyleaf in-app subscription.
 
 {% include flyleaf-download.html %}

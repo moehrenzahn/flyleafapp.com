@@ -5,7 +5,7 @@ layout: page
 image: /images/projects/flyleaf-mac-icon.png
 ---
 
-Hier habe ich einige häufig gestellte Fragen zu meiner Read-Later-App [Flyleaf](/de/) gesammelt. Wenn du der Meinung bist, dass deine Frage hier beantwortet werden sollte, dies aber nicht der Fall ist, wende dich bitte an [hi@flyleafapp.com](mailto:hi@flyleafapp.com)!
+Hier habe ich einige häufig gestellte Fragen zu meiner Read-Later-App [Flyleaf](/de/) gesammelt. Wenn du der Meinung bist, dass deine Frage hier beantwortet werden sollte, dies aber nicht der Fall ist, wende dich bitte an [support@flyleafapp.com](mailto:support@flyleafapp.com)!
 
 {% include flyleaf-download.html %}
 
@@ -53,7 +53,7 @@ Wenn du Flyleaf-Abonnent:in bist, kannst du auch die integrierte archive.is-Inte
 
 Du solltest die Aktion „Inhaltsprobleme beheben“ ausprobieren, die du durch Hochwischen während des Lesens eines Artikels aufrufen kannst. Sie bietet verschiedene Optionen, um Probleme mit Inhalten und Downloads zu umgehen.
 
-Wenn die Webseite immer noch nicht richtig in Flyleaf angezeigt wird, sende bitte den Link an [hi@flyleafapp.com](mailto:hi@flyleafapp.com), damit ich den Parser in einem zukünftigen Update verbessern kann!
+Wenn die Webseite immer noch nicht richtig in Flyleaf angezeigt wird, sende bitte den Link an [support@flyleafapp.com](mailto:support@flyleafapp.com), damit ich den Parser in einem zukünftigen Update verbessern kann!
 
 ----
 
@@ -99,7 +99,7 @@ Leider wird Flyleaf höchstwahrscheinlich nie Betriebssysteme unterstützen, die
 
 ## Kannst du die Funktion XYZ in die App einbauen?
 
-Vielleicht. :) Schick mir eine E-Mail an [hi@flyleafapp.com](mailto:hi@flyleafapp.com) und ich werde darüber nachdenken.
+Vielleicht. :) Schick mir eine E-Mail an [support@flyleafapp.com](mailto:support@flyleafapp.com) und ich werde darüber nachdenken.
 
 ----
 
@@ -125,7 +125,7 @@ Danke der Nachfrage! Als Indie-Entwickler bedeutet mir deine Unterstützung sehr
 
 - Gehe sowohl zum iOS App Store als auch zum Mac App Store und [gebe eine Bewertung ab und schreibe eine positive Rezension](https://apps.apple.com/app/flyleaf-read-later/id6475200381?action=write-review). Gib am Besten nach jedem App-Update eine neue Bewertung ab.
 - Falls du einen Blog, viele Follower in den sozialen Medien oder viele Freunde hast, empfiehl Flyleaf weiter.
-- Wenn du auf einen Fehler in der App stößt, lass es mich unter [hi@flyleafapp.com](mailto:hi@flyleafapp.com) wissen. Wenn du an der TestFlight-Beta teilnehmen möchtest, um zukünftige Updates zu verbessern, lass es mich ebenfalls wissen.
+- Wenn du auf einen Fehler in der App stößt, lass es mich unter [support@flyleafapp.com](mailto:support@flyleafapp.com) wissen. Wenn du an der TestFlight-Beta teilnehmen möchtest, um zukünftige Updates zu verbessern, lass es mich ebenfalls wissen.
 - Denk darüber nach, ein monatliches oder jährliches Flyleaf-In-App-Abo abzuschließen.
 
 {% include flyleaf-download.html %}
